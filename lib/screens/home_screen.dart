@@ -23,7 +23,7 @@ class HomeScreen extends StatelessWidget {
               Text(
                 'Catch A Mole',
                 style: GoogleFonts.pressStart2p(
-                  fontSize: 32,
+                  fontSize: 29,
                   color: Colors.white,
                   shadows: [
                     const Shadow(

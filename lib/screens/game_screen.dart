@@ -30,7 +30,7 @@ class _GameScreenState extends ConsumerState<GameScreen> {
         backgroundColor: Colors.brown[800],
         elevation: 0,
         title: Text(
-          'Wake-A-Mole',
+          'Catch A Mole',
           style: GoogleFonts.pressStart2p(color: Colors.white),
         ),
         centerTitle: true,
