@@ -20,7 +20,7 @@ class GameState {
 
   GameState({
     this.score = 0,
-    this.timeLeft = 30,
+    this.timeLeft = 60,
     this.isActive = false,
     List<MoleType>? moleStatus,
     this.highScores = const [],
@@ -159,14 +159,14 @@ class GameNotifier extends StateNotifier<GameState> {
   }
 
   Duration _getGameSpeed() {
-    int speed = 800 - (state.score * 2);
-    return Duration(microseconds: max(350, speed)); // Default speed
+    int speed = 03 - (state.score * 2);
+    return Duration(seconds: max(02, speed)); // Default speed
   }
 
   Duration _getMoleVisibleDuration() {
-    int duration = 900 - (state.score);
+    int duration = 02 - (state.score);
     return Duration(
-      microseconds: max(500, duration),
+      seconds: max(01, duration),
     ); // Duration for which the mole is visible
   }
 
