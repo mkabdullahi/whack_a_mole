@@ -1,4 +1,4 @@
-name: whack_a_mole
+name: WhackAMole
 description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -42,7 +42,9 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  
+  flutter_native_splash: ^2.4.0
+  flutter_launcher_icons: ^0.13.1
+
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
   # activated in the `analysis_options.yaml` file located at the root of your
@@ -55,10 +57,6 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
-
-  # The following line ensures that the Material Icons font is
-  # included with your application, so that you can use the icons in
-  # the material Icons class.
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
@@ -92,3 +90,17 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
+
+flutter_native_splash:
+  color: "#FFFFFF"
+  image: assets/images/mole.png
+  branding: assets/images/mole.png # Optional: Use this to set a branding image
+  branding_mode: top
+  android: true
+  ios: true
+  web: true
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/mole.png"
