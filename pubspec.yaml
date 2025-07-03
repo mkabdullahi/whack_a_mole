@@ -92,7 +92,6 @@ flutter:
   # see https://flutter.dev/to/font-from-package
 
 flutter_native_splash:
-  color: "#FFFFFF"
   image: assets/images/mole_icon.png
   branding: assets/images/brand_icon.png # Optional: Use this to set a branding image
   background_image: assets/images/dirt_background.png # Optional: Use this to set a background image

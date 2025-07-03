@@ -159,7 +159,7 @@ class GameNotifier extends StateNotifier<GameState> {
   }
 
   Duration _getGameSpeed() {
-    int speed = 03 - (state.score * 2);
+    int speed = 01 - (state.score * 2);
     return Duration(seconds: max(02, speed)); // Default speed
   }
 
